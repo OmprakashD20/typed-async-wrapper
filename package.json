@@ -1,0 +1,36 @@
+{
+  "name": "typed-async-wrapper",
+  "version": "1.0.0",
+  "description": "Type-safe express async wrapper for Express.js with automatic error handling to avoid nested try-catch blocks.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "express",
+    "async-wrapper",
+    "typed-async-wrapper",
+    "middleware",
+    "typescript",
+    "wrapper"
+  ],
+  "author": "Omprakash D",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmprakashD20/typed-async-wrapper.git"
+  },
+  "peerDependencies": {
+    "@types/express": "^5.0.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "express": "^5.1.0",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist"
+  ]
+}

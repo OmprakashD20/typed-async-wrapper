@@ -76,6 +76,17 @@ export function asyncWrapper<Opts extends AsyncWrapperRequestParams>(
   next: NextFunction
 ) => Promise<void>;
 
+export function asyncWrapper<T>(
+  fn: (
+    req: AsyncWrapperRequest<AsyncWrapperRequestParams>,
+    res: Response
+  ) => Promise<AsyncWrapperResponse<T>>
+): (
+  req: AsyncWrapperRequest<AsyncWrapperRequestParams>,
+  res: Response,
+  next: NextFunction
+) => Promise<void>;
+
 export function asyncWrapper<
   T = undefined,
   Opts extends AsyncWrapperRequestParams = AsyncWrapperRequestParams

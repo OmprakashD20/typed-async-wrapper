@@ -4,12 +4,14 @@
 
 ![npm](https://img.shields.io/npm/v/typed-async-wrapper.svg)
 ![npm downloads](https://img.shields.io/npm/dm/typed-async-wrapper.svg)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/OmprakashD20/typed-async-wrapper/pulls)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Node](https://img.shields.io/badge/Node.js-18%2B-green.svg?logo=node.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue.svg?logo=typescript)
 ![Express Compatibility](https://img.shields.io/badge/Express.js-4.x%20%7C%205.x%20compatible-lightgrey)
-![Node](https://img.shields.io/badge/Node.js-18%2B-green.svg?logo=node.js)
-![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
 ![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)
+![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/OmprakashD20/typed-async-wrapper/pulls)
+
 ---
 
 ## 📚 Table of Contents

@@ -17,6 +17,7 @@
     "wrapper"
   ],
   "author": "Omprakash D",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OmprakashD20/typed-async-wrapper.git"
